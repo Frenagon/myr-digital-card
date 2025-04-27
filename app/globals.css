@@ -1,22 +1,22 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: var(--color-neutral-100);
+  --foreground: var(--color-neutral-700);
 }
 
 @layer base {
   h1 {
     font-size: var(--text-3xl);
+    font-weight: 900;
     line-height: 3rem;
     color: var(--color-neutral-800);
-    font-weight: 900;
   }
 
   h2 {
     font-size: var(--text-2xl);
-    color: var(--color-neutral-700);
     font-weight: 700;
+    color: var(--color-neutral-700);
   }
 }
 
@@ -29,6 +29,7 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Lato, Arial, Helvetica, sans-serif;
+  font-weight: 700;
 }
 
 @theme {
