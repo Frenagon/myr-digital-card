@@ -1,26 +1,22 @@
-import { ImageProps } from "next/image";
+import Image, { ImageProps } from "next/image";
 
 export default function ContactLink({
   imageData,
   text,
-  onClick,
+  href,
 }: {
   imageData: ImageProps;
   text: string;
-  onClick: React.MouseEventHandler<HTMLButtonElement>;
+  href: string;
 }) {
   return (
-    <button
-      onClick={onClick}
+    <a
+      href={href}
+      target="_blank"
       className="flex items-center py-2 hover:bg-primary-300"
     >
-      {/* <Image {...imageData} /> */}
-      <img
-        src={imageData.src as string}
-        alt={imageData.alt}
-        className="ml-6 aspect-square w-10 rounded-full"
-      />
+      <Image className="ml-6 w-10" {...imageData} />
       <span className="ml-4">{text}</span>
-    </button>
+    </a>
   );
 }

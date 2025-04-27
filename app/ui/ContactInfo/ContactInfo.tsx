@@ -4,32 +4,56 @@ import ContactLink from "./ContactLink";
 
 export default function ContactInfo({ className }: { className: string }) {
   return (
-    <div className={`flex flex-col ${className}`}>
+    <div className={`flex flex-col justify-center ${className}`}>
       <ContactLink
         imageData={{
-          src: "https://placehold.co/400x400/5d8a87/ffe2e8?text=P",
-          alt: "First Link",
-          width: 400,
-          height: 400,
-          sizes: "100vw",
+          src: "/social/whatsapp-icon.svg",
+          alt: "WhatsApp Icon",
+          width: 100,
+          height: 100,
         }}
-        text="Pay me via Paypal"
-        onClick={() => {
-          console.log("Clicked on One");
-        }}
+        text="Mandame mensaje en WhatsApp"
+        href="https://wa.me/5213311500850"
       />
       <ContactLink
         imageData={{
-          src: "https://placehold.co/400x400/5d8a87/ffe2e8?text=T",
-          alt: "Second Link",
-          width: 400,
-          height: 400,
-          sizes: "100vw",
+          src: "/social/instagram-icon.svg",
+          alt: "Instagram Icon",
+          width: 100,
+          height: 100,
         }}
-        text="Follow me on Twitter"
-        onClick={() => {
-          console.log("Clicked on Two");
+        text="Sigueme en Instagram"
+        href="https://www.instagram.com/medimyr/"
+      />
+      <ContactLink
+        imageData={{
+          src: "/social/phone-icon.svg",
+          alt: "Phone Icon",
+          width: 100,
+          height: 100,
         }}
+        text="Llamame por telefono"
+        href="tel:5213311500850"
+      />
+      <ContactLink
+        imageData={{
+          src: "/social/email-icon.svg",
+          alt: "Email Icon",
+          width: 100,
+          height: 100,
+        }}
+        text="Mandame un correo"
+        href="mailto:medimyr@gmail.com"
+      />
+      <ContactLink
+        imageData={{
+          src: "/social/map-icon.svg",
+          alt: "Email Icon",
+          width: 100,
+          height: 100,
+        }}
+        text="Encuentrame aqui"
+        href="https://maps.app.goo.gl/WUaqTK4E3Ayshr1B7"
       />
     </div>
   );
