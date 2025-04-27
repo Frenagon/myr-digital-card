@@ -1,4 +1,4 @@
-import Image, { ImageProps } from "next/image";
+import { ImageProps } from "next/image";
 
 export default function ContactLink({
   imageData,
