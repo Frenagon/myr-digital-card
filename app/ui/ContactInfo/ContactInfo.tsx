@@ -12,7 +12,7 @@ export default function ContactInfo({ className }: { className: string }) {
           width: 100,
           height: 100,
         }}
-        text="Mandame mensaje en WhatsApp"
+        text="Agenda tu cita por WhatsApp"
         href="https://wa.me/5213311500850"
       />
       <ContactLink
@@ -22,7 +22,7 @@ export default function ContactInfo({ className }: { className: string }) {
           width: 100,
           height: 100,
         }}
-        text="Sigueme en Instagram"
+        text="Conoceme en Instagram"
         href="https://www.instagram.com/medimyr/"
       />
       <ContactLink
@@ -32,7 +32,7 @@ export default function ContactInfo({ className }: { className: string }) {
           width: 100,
           height: 100,
         }}
-        text="Llamame por telefono"
+        text="Llámame para agendar"
         href="tel:5213311500850"
       />
       <ContactLink
@@ -42,17 +42,17 @@ export default function ContactInfo({ className }: { className: string }) {
           width: 100,
           height: 100,
         }}
-        text="Mandame un correo"
+        text="Contáctame por correo"
         href="mailto:medimyr@gmail.com"
       />
       <ContactLink
         imageData={{
           src: "/social/map-icon.svg",
-          alt: "Email Icon",
+          alt: "Map Icon",
           width: 100,
           height: 100,
         }}
-        text="Encuentrame aqui"
+        text="Encuentrame en Google Maps"
         href="https://maps.app.goo.gl/WUaqTK4E3Ayshr1B7"
       />
     </div>
