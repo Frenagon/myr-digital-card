@@ -55,6 +55,16 @@ export default function ContactInfo({ className }: { className: string }) {
         text="Encuentrame en Google Maps"
         href="https://maps.app.goo.gl/WUaqTK4E3Ayshr1B7"
       />
+      <ContactLink
+        imageData={{
+          src: "/social/doctoralia-icon.svg",
+          alt: "Doctor Icon",
+          width: 100,
+          height: 100,
+        }}
+        text="Agenda tu cita en Doctoralia"
+        href="https://www.doctoralia.com.mx/myriam-jeanette-cardenas-sanchez/nutriologo-clinico-medico-general/zapopan?utm_content=#highlight-calendar"
+      />
     </div>
   );
 }
