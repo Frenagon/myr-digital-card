@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { HTMLAttributes } from "react";
 
 export default function Header({ className }: { className: string }) {
   return (
