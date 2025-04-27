@@ -4,7 +4,7 @@ import ContactLink from "./ContactLink";
 
 export default function ContactInfo({ className }: { className: string }) {
   return (
-    <div className={`flex flex-col justify-center ${className}`}>
+    <div className={`flex flex-col ${className}`}>
       <ContactLink
         imageData={{
           src: "/social/whatsapp-icon.svg",
