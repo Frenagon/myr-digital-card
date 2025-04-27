@@ -22,7 +22,7 @@ export default function ContactInfo({ className }: { className: string }) {
           width: 100,
           height: 100,
         }}
-        text="Conoceme en Instagram"
+        text="Conóceme en Instagram"
         href="https://www.instagram.com/medimyr/"
       />
       <ContactLink
@@ -52,7 +52,7 @@ export default function ContactInfo({ className }: { className: string }) {
           width: 100,
           height: 100,
         }}
-        text="Encuentrame en Google Maps"
+        text="Encuéntrame en Google Maps"
         href="https://maps.app.goo.gl/WUaqTK4E3Ayshr1B7"
       />
       <ContactLink
