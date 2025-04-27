@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Header({ className }: { className: string }) {
   return (
     <div className={`flex flex-col ${className}`}>
-      <div className="flex flex-1 items-center justify-center bg-primary-300">
+      <div className="flex flex-1 items-center justify-center bg-gray-200">
         <Image
           src="/logo.png"
           alt="Un estetoscopio con una cara feliz"
