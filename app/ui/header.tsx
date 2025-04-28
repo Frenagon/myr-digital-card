@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Header({ className }: { className: string }) {
   return (
     <div
-      className={`flex flex-col items-center justify-center bg-gradient-to-b from-neutral-100 to-neutral-200 ${className}`}
+      className={`flex flex-col items-center justify-center bg-gradient-to-b from-primary-100 to-primary-200 ${className}`}
     >
       <Image
         src="/profile-picture.png"
