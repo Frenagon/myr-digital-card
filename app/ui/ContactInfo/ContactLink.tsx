@@ -13,7 +13,7 @@ export default function ContactLink({
     <a
       href={href}
       target="_blank"
-      className="flex items-center py-2 hover:bg-primary-200"
+      className="bg-opacity-50 flex items-center py-2 hover:bg-primary-200/55"
     >
       <Image className="ml-6 w-10" {...imageData} />
       <span className="ml-4">{text}</span>
