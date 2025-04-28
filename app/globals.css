@@ -2,7 +2,7 @@
 
 :root {
   --background: var(--color-primary-200);
-  --foreground: var(--color-slate-600);
+  --foreground: var(--color-slate-800);
 }
 
 @layer base {
@@ -10,13 +10,13 @@
     font-size: var(--text-3xl);
     font-weight: 900;
     line-height: 3rem;
-    color: var(--color-slate-800);
+    color: var(--color-slate-900);
   }
 
   h2 {
     font-size: var(--text-2xl);
     font-weight: 700;
-    color: var(--color-slate-600);
+    color: var(--color-slate-800);
   }
 }
 

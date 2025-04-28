@@ -12,6 +12,7 @@ export default function Header({ className }: { className: string }) {
         width={2048}
         sizes="100vw"
         className="aspect-square h-2/3"
+        priority
       />
       <Image
         src="/profile-picture.png"
