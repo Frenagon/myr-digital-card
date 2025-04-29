@@ -7,6 +7,16 @@ export default function ContactInfo({ className }: { className: string }) {
     <div className={`flex flex-col ${className}`}>
       <ContactLink
         imageData={{
+          src: "/social/doctoralia-icon.svg",
+          alt: "Doctor Icon",
+          width: 100,
+          height: 100,
+        }}
+        text="Agenda tu cita en Doctoralia"
+        href="https://www.doctoralia.com.mx/myriam-jeanette-cardenas-sanchez/nutriologo-clinico-medico-general/zapopan?utm_content=#highlight-calendar"
+      />
+      <ContactLink
+        imageData={{
           src: "/social/whatsapp-icon.svg",
           alt: "WhatsApp Icon",
           width: 100,
@@ -14,16 +24,6 @@ export default function ContactInfo({ className }: { className: string }) {
         }}
         text="Agenda tu cita por WhatsApp"
         href="https://wa.me/5213311500850"
-      />
-      <ContactLink
-        imageData={{
-          src: "/social/instagram-icon.svg",
-          alt: "Instagram Icon",
-          width: 100,
-          height: 100,
-        }}
-        text="Conóceme en Instagram"
-        href="https://www.instagram.com/medimyr/"
       />
       <ContactLink
         imageData={{
@@ -57,13 +57,13 @@ export default function ContactInfo({ className }: { className: string }) {
       />
       <ContactLink
         imageData={{
-          src: "/social/doctoralia-icon.svg",
-          alt: "Doctor Icon",
+          src: "/social/instagram-icon.svg",
+          alt: "Instagram Icon",
           width: 100,
           height: 100,
         }}
-        text="Agenda tu cita en Doctoralia"
-        href="https://www.doctoralia.com.mx/myriam-jeanette-cardenas-sanchez/nutriologo-clinico-medico-general/zapopan?utm_content=#highlight-calendar"
+        text="Conóceme en Instagram"
+        href="https://www.instagram.com/medimyr/"
       />
     </div>
   );
